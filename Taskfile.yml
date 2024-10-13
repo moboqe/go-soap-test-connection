@@ -1,0 +1,9 @@
+version: "3"
+
+tasks:
+  generate:
+    aliases:
+      - gorun
+    desc: "Run main.go"
+    cmds:
+      - go run cmd/db-test-queries/main.go
